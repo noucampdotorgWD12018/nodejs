@@ -36,6 +36,7 @@ Check your ``htdocs`` folder.  You should have a new folder called ``nodejs`` wi
     - ``sync.js``
     - ``async.js``
     - ``async2.js``
+	- ``readFile.js``
     
 1.	Push your code to **your private** repository on GitHub.  Type these commands into your *Git Bash* client:
 
