@@ -22,7 +22,7 @@ $ git status
 1.  Create a ``index.js`` file in the ``myUC`` folder with this code:
 
     ```javascript
-    // useUC.js
+    // index.js
     var uc = require('upper-case');
  
     console.log(uc("hello, world"));
