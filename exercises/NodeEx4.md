@@ -30,5 +30,13 @@ $ git status
 
 1.  Run the ``index.js`` file to test everything works.
 
+1.  Push your code to your private repository on GitHub. Type these commands into your Git Bash client:
 
-
+    ```
+    $ cd /<DRIVE>/xampp/htdocs/nodejs
+    $ git status
+    $ git add .
+    $ git commit -m "Exercise 4 - DONE|PARTIAL|HELP"
+    $ git push origin master
+    $ git status
+    ```
