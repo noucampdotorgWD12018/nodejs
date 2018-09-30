@@ -43,3 +43,18 @@ $ git status
     $ git push origin master
     $ git status
     ```
+
+## Part 3 – MySQL JSON Server
+
+In this part you'll attempt to write a MySQL JSON server that returns a MySQL query as JSON data.  
+For example, the server could return data from the ``artist`` table as this JSON data:
+
+```
+[{"artist_id":1,"artist_name":"New Order"},{"artist_id":2,"artist_name":"Nick Cave & The Bad Seeds"},{"artist_id":3,"artist_name":"Miles Davis"},{"artist_id":4,"artist_name":"The Rolling Stones"},{"artist_id":5,"artist_name":"The Stone Roses"},{"artist_id":6,"artist_name":"Kylie Minogue"}]
+```
+
+1.  Open the program ``musicJSONServer.js``.  It is an incomplete code solution.  Provide the missing code to complete this solution.
+
+1.  Run the program and test it using the URL [http://localhost:3000/](http://localhost:3000/) 
+
+    You should see the JSON data shown above.
