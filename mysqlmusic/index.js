@@ -10,7 +10,7 @@ var connection = mysql.createConnection({
 
 connection.connect();
 var query="SELECT * FROM artist";
-connection.query(query, function(err, rows, fields) {
+connection.query(query, function(err, rows) {
   if (err) throw err;
   console.log(JSON.stringify(rows));
   // OR
