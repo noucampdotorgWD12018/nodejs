@@ -34,7 +34,7 @@ $ git status
 1.  Modify the code in ``addServer.js`` so it can handle addition or subtraction.  For example:
 
     - the URL [http://localhost:3000/?num1=1&num2=2&op=add](http://localhost:3000/?num1=1&num2=2&op=add) would print 1+2=3
-    - the URL [http://localhost:3000/?num1=2&num1=2&op=sub](http://localhost:3000/?num1=2&num2=1&op=add) would print 2-1=1
+    - the URL [http://localhost:3000/?num1=2&num1=2&op=sub](http://localhost:3000/?num1=2&num2=1&op=sub) would print 2-1=1
 
 1.  Push your code to your private repository on GitHub. Type these commands into your Git Bash client:
 
