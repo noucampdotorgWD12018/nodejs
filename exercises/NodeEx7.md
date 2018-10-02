@@ -1,4 +1,4 @@
-# Node.js Exercise 7 – Music Web Website & JSON API
+# Node.js Exercise 7 – Music Website & JSON API
 		
 > Complete ALL the exercises in this section.
 
