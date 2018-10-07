@@ -96,6 +96,24 @@ Checkout the files in the new folder ``nodejs/musicSite``
 
     Secondly, by choosing an artist from the dropdown should show album(s) for just that artist.
 
+1.  In your ``musicSite`` folder create two new files - ``artistAdd.html`` and ``artistAdd.js``.  
+    Add the code necessary to display an Add Artist webpage like the one below.  When artist details are provided *INSERT* the data into the existing ``artists`` table.
+
+    ![](../images/addArtist_html.png)
+
+    Check it works by using this URL [http://localhost/nodejs/musicSite/artistAdd.html](http://localhost/nodejs/musicSite/artistAdd.html)
+
+1.  Finally, in your ``musicSite`` folder create two new files - ``artistUpdate.html`` and ``artistUpdate.js``.  
+    Add the code necessary to display an Update Artist webpage like the one below.  
+    
+    Use the *Mustache* template engine to render the artist details within a HTML table.
+
+    When an *Update* button is pressed provide the appropriate code to update the artist name.
+
+    ![](../images/artistUpdate_html.png)
+
+    Check it works by using this URL [http://localhost/nodejs/musicSite/artistUpdate.html](http://localhost/nodejs/musicSite/artistUpdate.html)
+    
 1.  Push your code to your private repository on GitHub. Type these commands into your Git Bash client:
 
     ```
